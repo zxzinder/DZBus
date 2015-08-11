@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A73235B1B1D595C007B139D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A73235A1B1D595C007B139D /* AppDelegate.m */; };
+		9A7532291B141DBA00C532B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7532241B141DBA00C532B2 /* ViewController.m */; };
+		9A75322A1B141DBA00C532B2 /* DZBusAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7532281B141DBA00C532B2 /* DZBusAdView.m */; };
 		9A7EFF8F1B0ECE10008F6AAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7EFF8E1B0ECE10008F6AAD /* main.m */; };
 		9A7EFF921B0ECE10008F6AAD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7EFF911B0ECE10008F6AAD /* AppDelegate.m */; };
-		9A7EFF951B0ECE10008F6AAD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A7EFF941B0ECE10008F6AAD /* ViewController.m */; };
 		9A7EFF981B0ECE10008F6AAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A7EFF961B0ECE10008F6AAD /* Main.storyboard */; };
 		9A7EFF9A1B0ECE10008F6AAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A7EFF991B0ECE10008F6AAD /* Images.xcassets */; };
 		9A7EFF9D1B0ECE10008F6AAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A7EFF9B1B0ECE10008F6AAD /* LaunchScreen.xib */; };
@@ -27,13 +29,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A7323591B1D595C007B139D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9A73235A1B1D595C007B139D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9A7532231B141DBA00C532B2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9A7532241B141DBA00C532B2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9A7532271B141DBA00C532B2 /* DZBusAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DZBusAdView.h; sourceTree = "<group>"; };
+		9A7532281B141DBA00C532B2 /* DZBusAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DZBusAdView.m; sourceTree = "<group>"; };
 		9A7EFF891B0ECE10008F6AAD /* DZBus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DZBus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A7EFF8D1B0ECE10008F6AAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A7EFF8E1B0ECE10008F6AAD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A7EFF901B0ECE10008F6AAD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A7EFF911B0ECE10008F6AAD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9A7EFF931B0ECE10008F6AAD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9A7EFF941B0ECE10008F6AAD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9A7EFF971B0ECE10008F6AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A7EFF991B0ECE10008F6AAD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9A7EFF9C1B0ECE10008F6AAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -60,6 +66,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A7532211B141DBA00C532B2 /* 主页面 */ = {
+			isa = PBXGroup;
+			children = (
+				9A7532221B141DBA00C532B2 /* Contollers */,
+				9A7532251B141DBA00C532B2 /* Models */,
+				9A7532261B141DBA00C532B2 /* Views */,
+			);
+			path = "主页面";
+			sourceTree = "<group>";
+		};
+		9A7532221B141DBA00C532B2 /* Contollers */ = {
+			isa = PBXGroup;
+			children = (
+				9A7532231B141DBA00C532B2 /* ViewController.h */,
+				9A7532241B141DBA00C532B2 /* ViewController.m */,
+			);
+			path = Contollers;
+			sourceTree = "<group>";
+		};
+		9A7532251B141DBA00C532B2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9A7532261B141DBA00C532B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A7532271B141DBA00C532B2 /* DZBusAdView.h */,
+				9A7532281B141DBA00C532B2 /* DZBusAdView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		9A7EFF801B0ECE10008F6AAD = {
 			isa = PBXGroup;
 			children = (
@@ -81,11 +122,11 @@
 		9A7EFF8B1B0ECE10008F6AAD /* DZBus */ = {
 			isa = PBXGroup;
 			children = (
-				9A7EFF901B0ECE10008F6AAD /* AppDelegate.h */,
-				9A7EFF911B0ECE10008F6AAD /* AppDelegate.m */,
-				9A7EFF931B0ECE10008F6AAD /* ViewController.h */,
-				9A7EFF941B0ECE10008F6AAD /* ViewController.m */,
+				9A7323591B1D595C007B139D /* AppDelegate.h */,
+				9A73235A1B1D595C007B139D /* AppDelegate.m */,
 				9A7EFF961B0ECE10008F6AAD /* Main.storyboard */,
+				9A7532211B141DBA00C532B2 /* 主页面 */,
+				9A7EFFB61B0F04DE008F6AAD /* Others */,
 				9A7EFF991B0ECE10008F6AAD /* Images.xcassets */,
 				9A7EFF9B1B0ECE10008F6AAD /* LaunchScreen.xib */,
 				9A7EFF8C1B0ECE10008F6AAD /* Supporting Files */,
@@ -96,6 +137,8 @@
 		9A7EFF8C1B0ECE10008F6AAD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9A7EFF901B0ECE10008F6AAD /* AppDelegate.h */,
+				9A7EFF911B0ECE10008F6AAD /* AppDelegate.m */,
 				9A7EFF8D1B0ECE10008F6AAD /* Info.plist */,
 				9A7EFF8E1B0ECE10008F6AAD /* main.m */,
 			);
@@ -117,6 +160,13 @@
 				9A7EFFA71B0ECE10008F6AAD /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A7EFFB61B0F04DE008F6AAD /* Others */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Others;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A7EFF951B0ECE10008F6AAD /* ViewController.m in Sources */,
+				9A75322A1B141DBA00C532B2 /* DZBusAdView.m in Sources */,
 				9A7EFF921B0ECE10008F6AAD /* AppDelegate.m in Sources */,
+				9A7532291B141DBA00C532B2 /* ViewController.m in Sources */,
 				9A7EFF8F1B0ECE10008F6AAD /* main.m in Sources */,
+				9A73235B1B1D595C007B139D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +464,7 @@
 				9A7EFFAE1B0ECE10008F6AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A7EFFAF1B0ECE10008F6AAD /* Build configuration list for PBXNativeTarget "DZBusTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +473,7 @@
 				9A7EFFB11B0ECE10008F6AAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
